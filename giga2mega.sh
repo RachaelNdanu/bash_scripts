@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 GIGA=$1
 MEGA=$(($GIGA * 1024))
