@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define thresholds
-CPU_THRESHOLD=5
-MEMORY_THRESHOLD=10
+CPU_THRESHOLD=50
+MEMORY_THRESHOLD=50
 DISK_THRESHOLD=50
 
 # Email settings
@@ -26,8 +26,9 @@ echo "Current disk usage: ${DISK_USAGE}%"
 send_alert() {
     echo "Subject: $SUBJECT" > $EMAIL_BODY
     echo " " >> $EMAIL_BODY
-    echo "$1" >> $EMAIL_BODY
+    echo "$1" >> $EMAIL_BODY #the argument 1 that is appended to the email body is like the argument passed in the if statement remember we call the send_alert function and then pass the agrument warning; CPU usage is at $cpu usage.that will be the argument 1 appended to the email body!
     mail -s "$SUBJECT" "$EMAIL" < $EMAIL_BODY
+    #mail command sends the email. The -s "$SUBJECT" option specifies the subject line, and $EMAIL is the recipient's email address. The < $EMAIL_BODY  reads the contents of the $EMAIL_BODY file and sends it as the email body.
 }
 
 # Check CPU usage
