@@ -30,7 +30,7 @@ else
 fi
 
 # Print end status message
-echo "Backup completed successfully."
+echo "Backup completed successfully!"
 date
 
 
