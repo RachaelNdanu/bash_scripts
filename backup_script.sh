@@ -30,11 +30,11 @@ else
 fi
 
 # Print end status message
-echo "Backup completed successfully!"
+echo "Backup completed successfully"
 date
 
 
 
 # List the backed-up folders
-echo "list of backed-up folders"
+echo "list of backed-up folders."
 ls -lh "$backup_dir"
