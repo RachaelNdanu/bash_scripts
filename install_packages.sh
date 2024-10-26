@@ -18,10 +18,9 @@ is_installed() {
 install_packages() {
     for package in "${PACKAGES[@]}"; do
         if is_installed "$package"; then
-            echo "$package is already installed. Skipping..."
+            echo "$package is already installed. Skipping...."
         else
-            echo "$package is not installed. Installing..."
-            sudo apt-get install -y "$package"
+            echo "$package is not installed. Installing...."
             if [[ $? -eq 0 ]]; then
                 echo "$package successfully installed."
             else
@@ -32,12 +31,12 @@ install_packages() {
 }
 
 # Update package list
-echo "Updating package list..."
+echo "Updating package list...."
 sudo apt-get update
 
 # Install the packages
 install_packages
 
 # Clean up any unnecessary packages
-echo "Cleaning up..."
+echo "Cleaning up...."
 sudo apt-get autoremove -y
