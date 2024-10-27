@@ -1,7 +1,7 @@
 #!/bin/bash
 
-str1="Thomas"
-str2=" Jerry"
+str1="Rachael"
+str2="Ndanu"
 
 str3="$str1 $str2"
 
