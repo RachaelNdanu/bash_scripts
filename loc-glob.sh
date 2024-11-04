@@ -13,3 +13,5 @@ echo "before calling myfunc() v1:$v1 , v2:$v2"
 myfunc
 
 echo "After calling myfunc() v1:$v1 , v2:$v2"
+
+#v2 is a gobal variabe and will be updated after calling the functon
