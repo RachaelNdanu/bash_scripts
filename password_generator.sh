@@ -18,6 +18,6 @@ if [[ "$password_length" =~ ^[1-9][0-9]*$ ]]; then
     echo "Generated Password: $(generate_password "$password_length")"
     break
 else
-    echo "Please enter a valid positive integer."
+    echo "Please enter a valid positive number."
 fi
 done
