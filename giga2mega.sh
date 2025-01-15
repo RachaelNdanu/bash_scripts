@@ -2,7 +2,7 @@
 
 GIGA=$1
 if [ "$GIGA" -lt 0 ]; then
-    echo "Error: The number of gigabytes cannot be negative."
+    echo "Error: The number of gigabytes can not be negative."
     exit 1
 fi
 
