@@ -8,7 +8,7 @@ case $CHAR in
 	[A-Z])
                 echo "$CHAR is a big alphabet" ;;
 	[0-9])
-                echo "$CHAR is a digitsssss";;
+                echo "$CHAR is a digitssss";;
 	*)
                 echo "$CHAR is a special character";;
 esac
