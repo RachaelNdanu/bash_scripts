@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hey,helloo $(whoami)!"
+echo "Hey,hellooo $(whoami)!"
