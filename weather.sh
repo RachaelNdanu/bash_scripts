@@ -8,7 +8,7 @@ if [ $TEMP -gt 5 ]; then
 	elif [ $TEMP -lt 25 ]; then
                 echo "its nice outside "
 	else
-		echo "na kunaa joto!"
+		echo "na kunaa jooto!"
 	fi
 
 else
