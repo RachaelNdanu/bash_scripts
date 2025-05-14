@@ -12,5 +12,6 @@ if [ $TEMP -gt 5 ]; then
 	fi
 
 else
-	echo "it's freezing! njeveeee"
+	echo "it's freezing! njeveeeee"
 fi
+
