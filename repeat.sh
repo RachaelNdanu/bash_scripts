@@ -4,5 +4,5 @@
 #	echo "i love You!"
 #done
 while [i -gt o ]; do
-	echo "i love you"
+	echo "i loove you"
 done
