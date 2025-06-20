@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "running the first script......" && sleep 1
+echo "running the first script...." && sleep 1
 ./second.sh
