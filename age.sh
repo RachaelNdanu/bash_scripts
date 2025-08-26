@@ -3,7 +3,7 @@
 AGE=$1
 
 if [ $AGE -lt 13 ]; then
-	echo "you are a babyy"
+	echo "you are a todler"
 elif [ $AGE -lt 20 ]; then
         echo "you are a teenager"
 elif [ $AGE -lt 65 ]; then
