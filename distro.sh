@@ -1,4 +1,4 @@
 #!/bin/bash
 
-distro="ubuntu"
+distro="ubuntuu"
 echo ${#distro}
