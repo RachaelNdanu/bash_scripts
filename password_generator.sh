@@ -12,7 +12,7 @@ generate_password() {
 while true; do
 
 #Prompt user for password length and ensure valid input
-read -p "Enter the password length: " password_length
+read -p "Enter the password length : " password_length
 
 if [[ "$password_length" =~ ^[1-9][0-9]*$ ]]; then
     echo "Generated Password: $(generate_password "$password_length")"
