@@ -5,7 +5,7 @@ echo -n "Please enter your monthly gross salary: "
 read gross_salary
 
 # Prompt the user for the tax rate in percentage
-echo -n "Please enter your tax rate (in percentage): "
+echo -n "Please enter your tax rate (in percentage form): "
 read tax_rate
 
 # Calculate the monthly net salary
