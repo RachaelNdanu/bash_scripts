@@ -16,4 +16,4 @@ monthly_net_salary=$(echo "scale=2; $gross_salary - ($gross_salary * $tax_rate /
 total_net_annual_salary=$(echo "scale=2; $monthly_net_salary * 12" | bc -l)
 
 # Output the total net annual salary
-echo "Your total net annual salary is: $total_net_annual_salary"
+echo "Your total net annual salary is equal to: $total_net_annual_salary"
