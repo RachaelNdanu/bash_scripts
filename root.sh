@@ -3,5 +3,5 @@
 if [ $(whoami) = 'root' ]; then
 	echo "you are the root user"
 else
-	echo "you are a regular user"
+	echo "you are just a regular user"
 fi
